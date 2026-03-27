@@ -6,8 +6,8 @@ import { Play, Camera, Film } from 'lucide-react'
 gsap.registerPlugin(ScrollTrigger)
 
 const photos = [
-  { src: 'https://images.unsplash.com/photo-1459749411175-04f440231878?w=400&h=500&fit=crop&sat=-100', alt: 'Concierto en vivo' },
-  { src: 'https://images.unsplash.com/photo-1520390138845-fd2d72078331?w=400&h=500&fit=crop&sat=-100', alt: 'Sesión de fotos' },
+  { src: 'https://images.unsplash.com/photo-1470229173992-7e94f0946c6d?w=400&h=500&fit=crop&sat=-100', alt: 'Concierto en vivo' },
+  { src: 'https://images.unsplash.com/photo-1533174072545-7f4b6f24b47c?w=400&h=500&fit=crop&sat=-100', alt: 'Sesión de fotos' },
   { src: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=500&fit=crop&sat=-100', alt: 'Estudio de grabación' },
   { src: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=500&fit=crop&sat=-100', alt: 'Guitarra acústica' },
   { src: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=500&fit=crop&sat=-100', alt: 'DJ set' },

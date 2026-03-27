@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { ShoppingBag, Shirt, Image, ScrollText } from 'lucide-react'
+import { ShoppingBag, Shirt, Image, ScrollText, CreditCard } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -61,6 +61,8 @@ const merchItems = [
     image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=500&fit=crop&sat=-100',
   },
 ]
+
+const MERCADO_PAGO_URL = 'https://www.mercadopago.com.ar'
 
 export default function Merchandise() {
   const containerRef = useRef(null)
@@ -138,10 +140,21 @@ export default function Merchandise() {
                 <p className="text-gray-400 text-sm mb-4">
                   {item.description}
                 </p>
-                <button className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-accent-glow to-blue-500 py-3 rounded-xl font-semibold hover:from-blue-500 hover:to-blue-400 transition-all duration-300">
-                  <ShoppingBag className="w-4 h-4" />
-                  Comprar
-                </button>
+                <div className="space-y-3">
+                  <button className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-accent-glow to-blue-500 py-3 rounded-xl font-semibold hover:from-blue-500 hover:to-blue-400 transition-all duration-300">
+                    <ShoppingBag className="w-4 h-4" />
+                    Comprar
+                  </button>
+                  <a
+                    href={MERCADO_PAGO_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full flex items-center justify-center gap-2 bg-[#009EE3] py-3 rounded-xl font-semibold hover:bg-[#0088cc] transition-all duration-300"
+                  >
+                    <CreditCard className="w-4 h-4" />
+                    Pagar con Mercado Pago
+                  </a>
+                </div>
               </div>
             </div>
           ))}

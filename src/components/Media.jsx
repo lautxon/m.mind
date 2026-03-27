@@ -6,8 +6,8 @@ import { Play, Camera, Film } from 'lucide-react'
 gsap.registerPlugin(ScrollTrigger)
 
 const photos = [
-  { src: 'https://images.unsplash.com/photo-1514525253440-b393452e8d26?w=400&h=500&fit=crop&sat=-100', alt: 'Concierto en vivo' },
-  { src: 'https://images.unsplash.com/photo-1493225457124-a3ebf18c5047?w=400&h=500&fit=crop&sat=-100', alt: 'Sesión de fotos' },
+  { src: 'https://images.unsplash.com/photo-1459749411175-04f440231878?w=400&h=500&fit=crop&sat=-100', alt: 'Concierto en vivo' },
+  { src: 'https://images.unsplash.com/photo-1534528742105-87c20b3574b7?w=400&h=500&fit=crop&sat=-100', alt: 'Sesión de fotos' },
   { src: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=500&fit=crop&sat=-100', alt: 'Estudio de grabación' },
   { src: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=500&fit=crop&sat=-100', alt: 'Guitarra acústica' },
   { src: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=500&fit=crop&sat=-100', alt: 'DJ set' },
@@ -16,7 +16,7 @@ const photos = [
 
 const videos = [
   { title: 'Ecos del Silencio - Video Oficial', thumbnail: 'https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=600&h=340&fit=crop&sat=-100', duration: '4:23' },
-  { title: 'Lluvia de Noviembre - Live Session', thumbnail: 'https://images.unsplash.com/photo-1459749411177-287ce38e8b7f?w=600&h=340&fit=crop&sat=-100', duration: '3:45' },
+  { title: 'Lluvia de Noviembre - Live Session', thumbnail: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=600&h=340&fit=crop&sat=-100', duration: '3:45' },
   { title: 'Detrás de Escena - Grabación', thumbnail: 'https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=600&h=340&fit=crop&sat=-100', duration: '12:30' },
 ]
 
